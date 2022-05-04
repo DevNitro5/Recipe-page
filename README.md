@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://interior-design-project-2022.netlify.app/">
+    <a href="https://devnitro5.github.io/Recipe-page/">
       Demo
     </a>
     <span> | </span>
@@ -28,7 +28,6 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
