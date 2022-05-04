@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devnitro5.github.io/Recipe-page/">
       Solution
     </a>
     <span> | </span>
@@ -36,8 +36,8 @@
 
 ![screenshot](./preview.png)
 
-- View the [live demo](https://interior-design-project-2022.netlify.app/)
-- 3rd Dev Challenges project
+- View the [live demo](https://devnitro5.github.io/Recipe-page/)
+- 4th Dev Challenges project
 - Mobile first
 
 ### Built With
@@ -45,11 +45,10 @@
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
 - [Tailwind](https://tailwindcss.com/)
-- [Javascript](https://www.w3schools.com/js/)
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
 
 ## Contact
 
