@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon::before {
+    content: url(../Imgs/6dots.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .icon-size {
+    font-size: 2rem !important;
+  }
+
+  ol {
+    counter-reset: item;
+  }
+  ol li {
+    position: relative;
+    padding-left: 3.125rem;
+    line-height: 1.5rem;
+  }
+  ol li::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f2994a;
+    content: counter(item) "";
+    counter-increment: item;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .checkbox {
+    cursor: pointer;
+  }
+  .label {
+    cursor: pointer;
+  }
+  .info-name {
+    @apply text-gray-400 text-vvs md:text-xs;
+  }
+  .info-value {
+    @apply text-vvs md:text-base mt-1;
+  }
+  .checkbox-control {
+    font-size: 1rem;
+    line-height:1.5rem;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.7em;
+    cursor: pointer;
+    margin-right:0.3em;
+    /* align-self:center; */
+    margin-top:0.29em;
+
+  }
+
+  input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    display: grid;
+    place-items: center;
+  }
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    box-shadow: inset 1em 1em currentColor;
+    transition: 120ms transform ease-in-out;
+  }
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  }
+}
