@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devnitro5.github.io/Recipe-page/">
+    <a href="https://devchallenges.io/solutions/dtPDT1maSgN0iCvKuxLX">
       Solution
     </a>
     <span> | </span>
